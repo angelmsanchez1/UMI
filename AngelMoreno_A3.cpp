@@ -42,8 +42,7 @@ using namespace std;
     }
   }
     
-    RFC = PrimeraLetra+vocal+apellidoMat.substr(0,1)+nombre.substr(0,1);
-    RFC = RFC+anio.substr(2,3)+mes+dia;
+    RFC = PrimeraLetra+vocal+apellidoMat.substr(0,1)+nombre.substr(0,1)+anio.substr(2,3)+mes+dia;
     cout<<" "<<endl;
     cout<<"RFC: "+RFC;
   return 0;
